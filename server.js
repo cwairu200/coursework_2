@@ -5,7 +5,7 @@ var startTime;
 var host;
 
 var handleRequest = function(request, response) {
-  response.setHeader('Content-Type', 'text/plain');
+  response.setHeader('Content-Type', 'text/numbers');
   response.writeHead(200);
   response.write("Hello World! | Running on: ");
   response.write(host);
